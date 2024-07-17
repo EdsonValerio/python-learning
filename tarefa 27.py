@@ -1,0 +1,5 @@
+frase = str(input('Digite uma frase qualquer: ')).upper().strip()
+letra = str(input('Digite uma letra para ser analisada: ')).upper().strip()
+print(f'a letra', {letra} ,'aparece', {frase.count(letra)}, 'vezes na frase' )
+print(f'A primeira aparição da letra', {letra}, 'foi em', {frase.find(letra)+1}, '° posição')
+print(f'E a ultima aparição da letra', {letra}, 'foi em', {frase.rfind(letra)+1}, '° posição')
